@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451A770C272CF49800381210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A770B272CF49800381210 /* AppDelegate.m */; };
+		451A7712272CF49800381210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7711272CF49800381210 /* ViewController.m */; };
+		451A7715272CF49800381210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A7713272CF49800381210 /* Main.storyboard */; };
+		451A7718272CF49800381210 /* Movie_Focus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 451A7716272CF49800381210 /* Movie_Focus.xcdatamodeld */; };
+		451A771A272CF49B00381210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451A7719272CF49B00381210 /* Assets.xcassets */; };
+		451A771D272CF49B00381210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A771B272CF49B00381210 /* LaunchScreen.storyboard */; };
+		451A7720272CF49B00381210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A771F272CF49B00381210 /* main.m */; };
+		451A772A272CF49C00381210 /* Movie_FocusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7729272CF49C00381210 /* Movie_FocusTests.m */; };
+		451A7734272CF49C00381210 /* Movie_FocusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7733272CF49C00381210 /* Movie_FocusUITests.m */; };
+		451A7736272CF49C00381210 /* Movie_FocusUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7735272CF49C00381210 /* Movie_FocusUITestsLaunchTests.m */; };
+		451A7744272D010700381210 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7743272D010700381210 /* SceneDelegate.m */; };
+		451A774B272D03F200381210 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A774A272D03F200381210 /* HomeViewController.m */; };
+		451A774F272D0B6B00381210 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A774E272D0B6B00381210 /* Home.storyboard */; };
+		451A7755272D12EA00381210 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7754272D12EA00381210 /* CustomCell.m */; };
+		451A7759272D14AA00381210 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A7758272D14AA00381210 /* DetalleViewController.m */; };
+		451A775D272D175500381210 /* SbDetalle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A775C272D175500381210 /* SbDetalle.storyboard */; };
+		451A7760272E428700381210 /* DescargaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A775F272E428700381210 /* DescargaClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		451A7726272CF49C00381210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451A76FF272CF49800381210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451A7706272CF49800381210;
+			remoteInfo = "Movie Focus";
+		};
+		451A7730272CF49C00381210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451A76FF272CF49800381210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451A7706272CF49800381210;
+			remoteInfo = "Movie Focus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		451A7707272CF49800381210 /* Movie Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Focus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A770A272CF49800381210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		451A770B272CF49800381210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		451A7710272CF49800381210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		451A7711272CF49800381210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		451A7714272CF49800381210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		451A7717272CF49800381210 /* Movie_Focus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movie_Focus.xcdatamodel; sourceTree = "<group>"; };
+		451A7719272CF49B00381210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451A771C272CF49B00381210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		451A771E272CF49B00381210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A771F272CF49B00381210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		451A7725272CF49C00381210 /* Movie FocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie FocusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A7729272CF49C00381210 /* Movie_FocusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_FocusTests.m; sourceTree = "<group>"; };
+		451A772F272CF49C00381210 /* Movie FocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie FocusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A7733272CF49C00381210 /* Movie_FocusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_FocusUITests.m; sourceTree = "<group>"; };
+		451A7735272CF49C00381210 /* Movie_FocusUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_FocusUITestsLaunchTests.m; sourceTree = "<group>"; };
+		451A7742272D010700381210 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		451A7743272D010700381210 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		451A7749272D03F200381210 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		451A774A272D03F200381210 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		451A774E272D0B6B00381210 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		451A7753272D12EA00381210 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		451A7754272D12EA00381210 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		451A7757272D14AA00381210 /* DetalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		451A7758272D14AA00381210 /* DetalleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		451A775C272D175500381210 /* SbDetalle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SbDetalle.storyboard; sourceTree = "<group>"; };
+		451A775E272E428700381210 /* DescargaClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescargaClass.h; sourceTree = "<group>"; };
+		451A775F272E428700381210 /* DescargaClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescargaClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451A7704272CF49800381210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A7722272CF49C00381210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A772C272CF49C00381210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451A76FE272CF49800381210 = {
+			isa = PBXGroup;
+			children = (
+				451A7709272CF49800381210 /* Movie Focus */,
+				451A7728272CF49C00381210 /* Movie FocusTests */,
+				451A7732272CF49C00381210 /* Movie FocusUITests */,
+				451A7708272CF49800381210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		451A7708272CF49800381210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451A7707272CF49800381210 /* Movie Focus.app */,
+				451A7725272CF49C00381210 /* Movie FocusTests.xctest */,
+				451A772F272CF49C00381210 /* Movie FocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451A7709272CF49800381210 /* Movie Focus */ = {
+			isa = PBXGroup;
+			children = (
+				451A7756272D148700381210 /* Detalle */,
+				451A7746272D037900381210 /* Home */,
+				451A7745272D031D00381210 /* Login */,
+				451A7742272D010700381210 /* SceneDelegate.h */,
+				451A7743272D010700381210 /* SceneDelegate.m */,
+				451A770A272CF49800381210 /* AppDelegate.h */,
+				451A770B272CF49800381210 /* AppDelegate.m */,
+				451A7719272CF49B00381210 /* Assets.xcassets */,
+				451A771B272CF49B00381210 /* LaunchScreen.storyboard */,
+				451A771E272CF49B00381210 /* Info.plist */,
+				451A771F272CF49B00381210 /* main.m */,
+				451A7716272CF49800381210 /* Movie_Focus.xcdatamodeld */,
+				451A7753272D12EA00381210 /* CustomCell.h */,
+				451A7754272D12EA00381210 /* CustomCell.m */,
+				451A775E272E428700381210 /* DescargaClass.h */,
+				451A775F272E428700381210 /* DescargaClass.m */,
+			);
+			path = "Movie Focus";
+			sourceTree = "<group>";
+		};
+		451A7728272CF49C00381210 /* Movie FocusTests */ = {
+			isa = PBXGroup;
+			children = (
+				451A7729272CF49C00381210 /* Movie_FocusTests.m */,
+			);
+			path = "Movie FocusTests";
+			sourceTree = "<group>";
+		};
+		451A7732272CF49C00381210 /* Movie FocusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				451A7733272CF49C00381210 /* Movie_FocusUITests.m */,
+				451A7735272CF49C00381210 /* Movie_FocusUITestsLaunchTests.m */,
+			);
+			path = "Movie FocusUITests";
+			sourceTree = "<group>";
+		};
+		451A7745272D031D00381210 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				451A7710272CF49800381210 /* ViewController.h */,
+				451A7711272CF49800381210 /* ViewController.m */,
+				451A7713272CF49800381210 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		451A7746272D037900381210 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				451A7749272D03F200381210 /* HomeViewController.h */,
+				451A774A272D03F200381210 /* HomeViewController.m */,
+				451A774E272D0B6B00381210 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		451A7756272D148700381210 /* Detalle */ = {
+			isa = PBXGroup;
+			children = (
+				451A7757272D14AA00381210 /* DetalleViewController.h */,
+				451A7758272D14AA00381210 /* DetalleViewController.m */,
+				451A775C272D175500381210 /* SbDetalle.storyboard */,
+			);
+			path = Detalle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451A7706272CF49800381210 /* Movie Focus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A7739272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie Focus" */;
+			buildPhases = (
+				451A7703272CF49800381210 /* Sources */,
+				451A7704272CF49800381210 /* Frameworks */,
+				451A7705272CF49800381210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie Focus";
+			productName = "Movie Focus";
+			productReference = 451A7707272CF49800381210 /* Movie Focus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		451A7724272CF49C00381210 /* Movie FocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A773C272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie FocusTests" */;
+			buildPhases = (
+				451A7721272CF49C00381210 /* Sources */,
+				451A7722272CF49C00381210 /* Frameworks */,
+				451A7723272CF49C00381210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451A7727272CF49C00381210 /* PBXTargetDependency */,
+			);
+			name = "Movie FocusTests";
+			productName = "Movie FocusTests";
+			productReference = 451A7725272CF49C00381210 /* Movie FocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		451A772E272CF49C00381210 /* Movie FocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451A773F272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie FocusUITests" */;
+			buildPhases = (
+				451A772B272CF49C00381210 /* Sources */,
+				451A772C272CF49C00381210 /* Frameworks */,
+				451A772D272CF49C00381210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451A7731272CF49C00381210 /* PBXTargetDependency */,
+			);
+			name = "Movie FocusUITests";
+			productName = "Movie FocusUITests";
+			productReference = 451A772F272CF49C00381210 /* Movie FocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451A76FF272CF49800381210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					451A7706272CF49800381210 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					451A7724272CF49C00381210 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 451A7706272CF49800381210;
+					};
+					451A772E272CF49C00381210 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 451A7706272CF49800381210;
+					};
+				};
+			};
+			buildConfigurationList = 451A7702272CF49800381210 /* Build configuration list for PBXProject "Movie Focus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451A76FE272CF49800381210;
+			productRefGroup = 451A7708272CF49800381210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451A7706272CF49800381210 /* Movie Focus */,
+				451A7724272CF49C00381210 /* Movie FocusTests */,
+				451A772E272CF49C00381210 /* Movie FocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451A7705272CF49800381210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A771D272CF49B00381210 /* LaunchScreen.storyboard in Resources */,
+				451A771A272CF49B00381210 /* Assets.xcassets in Resources */,
+				451A774F272D0B6B00381210 /* Home.storyboard in Resources */,
+				451A775D272D175500381210 /* SbDetalle.storyboard in Resources */,
+				451A7715272CF49800381210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A7723272CF49C00381210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A772D272CF49C00381210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451A7703272CF49800381210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A7720272CF49B00381210 /* main.m in Sources */,
+				451A7712272CF49800381210 /* ViewController.m in Sources */,
+				451A7744272D010700381210 /* SceneDelegate.m in Sources */,
+				451A770C272CF49800381210 /* AppDelegate.m in Sources */,
+				451A7759272D14AA00381210 /* DetalleViewController.m in Sources */,
+				451A7755272D12EA00381210 /* CustomCell.m in Sources */,
+				451A7718272CF49800381210 /* Movie_Focus.xcdatamodeld in Sources */,
+				451A774B272D03F200381210 /* HomeViewController.m in Sources */,
+				451A7760272E428700381210 /* DescargaClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A7721272CF49C00381210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A772A272CF49C00381210 /* Movie_FocusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451A772B272CF49C00381210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451A7736272CF49C00381210 /* Movie_FocusUITestsLaunchTests.m in Sources */,
+				451A7734272CF49C00381210 /* Movie_FocusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451A7727272CF49C00381210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451A7706272CF49800381210 /* Movie Focus */;
+			targetProxy = 451A7726272CF49C00381210 /* PBXContainerItemProxy */;
+		};
+		451A7731272CF49C00381210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451A7706272CF49800381210 /* Movie Focus */;
+			targetProxy = 451A7730272CF49C00381210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		451A7713272CF49800381210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A7714272CF49800381210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		451A771B272CF49B00381210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451A771C272CF49B00381210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		451A7737272CF49C00381210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		451A7738272CF49C00381210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451A773A272CF49C00381210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Movie Focus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-Focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451A773B272CF49C00381210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Movie Focus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-Focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		451A773D272CF49C00381210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-FocusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Focus.app/Movie Focus";
+			};
+			name = Debug;
+		};
+		451A773E272CF49C00381210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-FocusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Focus.app/Movie Focus";
+			};
+			name = Release;
+		};
+		451A7740272CF49C00381210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-FocusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Movie Focus";
+			};
+			name = Debug;
+		};
+		451A7741272CF49C00381210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R5RRM47Q5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wbRafael.com.Movie-FocusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Movie Focus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451A7702272CF49800381210 /* Build configuration list for PBXProject "Movie Focus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A7737272CF49C00381210 /* Debug */,
+				451A7738272CF49C00381210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A7739272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie Focus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A773A272CF49C00381210 /* Debug */,
+				451A773B272CF49C00381210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A773C272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie FocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A773D272CF49C00381210 /* Debug */,
+				451A773E272CF49C00381210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451A773F272CF49C00381210 /* Build configuration list for PBXNativeTarget "Movie FocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451A7740272CF49C00381210 /* Debug */,
+				451A7741272CF49C00381210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		451A7716272CF49800381210 /* Movie_Focus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				451A7717272CF49800381210 /* Movie_Focus.xcdatamodel */,
+			);
+			currentVersion = 451A7717272CF49800381210 /* Movie_Focus.xcdatamodel */;
+			path = Movie_Focus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 451A76FF272CF49800381210 /* Project object */;
+}
